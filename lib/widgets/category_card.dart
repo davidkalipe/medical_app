@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class CategoryCard extends StatelessWidget {
-
   final iconImagePath;
   final String categoryName;
 
-  const CategoryCard({super.key, this.iconImagePath, required this.categoryName});
+  const CategoryCard(
+      {super.key, this.iconImagePath, required this.categoryName});
 
   @override
   Widget build(BuildContext context) {

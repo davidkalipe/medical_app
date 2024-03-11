@@ -147,7 +147,7 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 25),
+            const SizedBox(height: 15),
             //doctor list
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0),
@@ -178,7 +178,7 @@ class HomePage extends StatelessWidget {
                   rating: '4.9',
                 ),
                 DoctorCard(
-                  doctorImagePath: 'lib/images/china-virus.jpg',
+                  doctorImagePath: 'lib/images/woman.jpg',
                   doctorName: 'Lepain Georges',
                   doctorProfession: 'Therapist',
                   rating: '3.8',
@@ -189,6 +189,7 @@ class HomePage extends StatelessWidget {
                   doctorProfession: 'Cardiologist',
                   rating: '4.9',
                 ),
+                SizedBox(width: 15)
               ],
             ))
           ],
